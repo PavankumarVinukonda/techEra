@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.cources-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-self: center;
+}
+
+.cources {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.courses-list-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  height: 40vh;
+  width: 40vw;
+}
+
+.retry-btn {
+  background-color: blue;
+  background-size: cover;
+  padding: 10px;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+}

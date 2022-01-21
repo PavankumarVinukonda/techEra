@@ -1,0 +1,30 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.not-found-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  height: 40vh;
+  width: 40vw;
+}
+
+.button {
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  border: 0px;
+}
+
+.link {
+  text-decoration: none;
+}

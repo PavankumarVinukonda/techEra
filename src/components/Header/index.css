@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: #f1f5f9;
+  background-size: cover;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 60px;
+  width: 120px;
+  margin-left: 40px;
+}
+
+.link {
+  text-decoration: none;
+}
